@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T18:19:04.804Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="rld38gHl1qEp8QuMDSQF" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T18:38:05.703Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="gl6BCRkxgSjN9HHQFSBx" version="21.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="926" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -149,6 +149,104 @@
         </mxCell>
         <mxCell id="7g69OASNnYOCCf8_o89a-56" value="Há unidades do produto no estoque" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="600" y="450" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="alA27K1LgbavTXRcBK-0-0" target="alA27K1LgbavTXRcBK-0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-0" value="O sistema diz ao funcionário em qual local do estoque o produto está" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.015;entryY=0.381;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="alA27K1LgbavTXRcBK-0-1" target="alA27K1LgbavTXRcBK-0-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-1" value="O funcionário põe o produto em uma caixa laranja e a põe em uma esteira" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="alA27K1LgbavTXRcBK-0-3" target="alA27K1LgbavTXRcBK-0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-3" value="A esteira leva a caixa laranja para o alguma das estações de trabalho" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="530" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="alA27K1LgbavTXRcBK-0-5" target="alA27K1LgbavTXRcBK-0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-5" value="O funcionário nesta estação de trabalho escaneia o produto&amp;nbsp; e o armazena em uma estante de nichos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="530" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="alA27K1LgbavTXRcBK-0-9" target="alA27K1LgbavTXRcBK-0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-9" value="A estante é transportada para outro local" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="650" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="alA27K1LgbavTXRcBK-0-11" target="alA27K1LgbavTXRcBK-0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-11" value="Neste local, um funcionário irá escanear o produto para checar em qual caixa deve embalar o produto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="750" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="alA27K1LgbavTXRcBK-0-13" target="alA27K1LgbavTXRcBK-0-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-13" value="O sistema indicará a devida caixa para o produto com base no peso do produto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="760" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" target="alA27K1LgbavTXRcBK-0-16" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="99.99999999999989" y="355" as="targetPoint" />
+            <mxPoint x="40" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="alA27K1LgbavTXRcBK-0-16" target="alA27K1LgbavTXRcBK-0-20" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-16" value="Produtos chegam em algum dos armazéns da Amazon" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="105" y="316.25" width="120" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="alA27K1LgbavTXRcBK-0-20" target="alA27K1LgbavTXRcBK-0-19" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.562;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="alA27K1LgbavTXRcBK-0-19" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="390" as="sourcePoint" />
+            <mxPoint x="363" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-19" value="Os funcionários checam todos os produtos em todas as caixas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="327" width="140" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-20" value="Os funcionários descarregam os produtos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="450" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="alA27K1LgbavTXRcBK-0-23" target="alA27K1LgbavTXRcBK-0-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-23" value="O funcionário irá embalar o produto na caixa escolhida pelo sistema" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="292" y="650" width="163" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="alA27K1LgbavTXRcBK-0-26" target="alA27K1LgbavTXRcBK-0-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-26" value="O funcionário põe a caixa, que contém o produto, em uma esteira" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="650" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="alA27K1LgbavTXRcBK-0-29" target="alA27K1LgbavTXRcBK-0-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-29" value="A esteira leva o produto para outra estação de trabalho" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="760" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="alA27K1LgbavTXRcBK-0-30" target="alA27K1LgbavTXRcBK-0-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-30" value="Nesta outra estação de trabalho, um funcionário pesa o produto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="860" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alA27K1LgbavTXRcBK-0-33" value="O funcionário escaneia o código de barras do produto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="860" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
